@@ -2,14 +2,15 @@
   "name": "9921",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "next start",
+    "dev": "next",
+    "build": "next build && next export",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "Apache-2.0",
-  "type": "module",
   "dependencies": {
     "@aws-amplify/ui-react": "^2.17.1",
     "aws-amplify": "^4.3.22",
