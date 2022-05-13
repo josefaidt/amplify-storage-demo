@@ -1,0 +1,12 @@
+.img {
+  max-width: 400px;
+}
+
+.message {
+  color: forestgreen;
+}
+
+.error {
+  color: crimson;
+  font-weight: bold;
+}
